@@ -1126,6 +1126,11 @@ function setupReveal(){
   setupNav();
   setupReveal();
 })();
+  /* ===================== CONFIGURAÇÃO DO SUPABASE ===================== */
+const SUPABASE_URL = 'https://gfwfymeebupkgvgpvmyw.supabase.co';
+const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imdmd2Z5bWVlYnVwa2d2Z3B2bXl3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODg5Nzk4ODEsImV4cCI6MjEwNDU1NTg4MX0.kENUoO2koOsIf4NtA3MRwUhPhowqH2DZTC_Ylu2AIGY';
+
+const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 </script>
 </body>
 </html>
